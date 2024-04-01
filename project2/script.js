@@ -8,9 +8,7 @@ number.addEventListener('click', function () {
     faqbox.style.height = "35px"
     faqbox.innerText = "What is Netflix?"
     
-     let image = document.createElement('img');
-     image.src = 'https://cdn.hugeicons.com/icons/plus-sign-stroke-rounded.svg'; // Replace 'your_image_url.jpg' with the actual image URL
-     faqbox.appendChild(image);
+     
 });
 
 

@@ -462,20 +462,24 @@ span#third {
 .faq h2 {
     box-sizing: border-box;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 500;
     margin-block-end: 0px;
     margin-block-start: 0px;
-
     margin-inline-end: 0px;
     margin-inline-start: 0px;
     margin-left: 145px;
-
-
     text-size-adjust: 100%;
     display: block;
     color: white;
     padding: 10px;
+    transition: all 0.1s ease-out;
+}
+@media screen  and (max-width: 1223px){
+    .faq h2{
+        margin-left: 60px;
+    }
+    
 }
 
 .faq {
@@ -524,6 +528,13 @@ span#third {
     align-items: center;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
+    transition: all 0.1s ease-out;
+}
+@media screen  and (max-width: 1223px){
+    #faqbox{
+        margin-left: 50px;
+    }
+    
 }
 
 #faqbox1 {
@@ -544,6 +555,13 @@ span#third {
     align-items: center;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
+    transition: all 0.1s ease-out;
+}
+@media screen  and (max-width: 1223px){
+    #faqbox1{
+        margin-left: 50px;
+    }
+    
 }
 
 #faqbox2 {
@@ -564,6 +582,13 @@ span#third {
     align-items: center;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
+    transition: all 0.1s ease-out;
+}
+@media screen  and (max-width: 1223px){
+    #faqbox2{
+        margin-left: 50px;
+    }
+    
 }
 
 #faqbox3 {
@@ -583,6 +608,12 @@ span#third {
     align-items: center;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
+    transition: all 0.1s ease-out;
+}@media screen  and (max-width: 1223px){
+    #faqbox3{
+        margin-left: 50px;
+    }
+    
 }
 
 #faqbox4 {
@@ -603,6 +634,12 @@ span#third {
     align-items: center;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
+    transition: all 0.1s ease-out;
+}@media screen  and (max-width: 1223px){
+    #faqbox4{
+        margin-left: 50px;
+    }
+    
 }
 
 #faqbox5 {
@@ -623,10 +660,17 @@ span#third {
     align-items: center;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
+    transition: all 0.1s ease-out;
+}@media screen  and (max-width: 1223px){
+    #faqbox5{
+        margin-left: 50px;
+    }
+    
 }
 
 #faqbox #img1 {
     filter: invert(1);
+    
 }
 
 #faqbox1 #img1 {
@@ -672,6 +716,7 @@ span#third {
     row-gap: 20px;
     padding: 30px;
     padding-left: 160px;
+   
 
 }
 
@@ -682,7 +727,7 @@ span#third {
     border: 1px solid rgba(246, 238, 238, 0.5);
     width: 900px;
     max-width: 900px;
-    height: 50px;
+    height: 55px;
     flex-wrap: wrap;
     border-radius: 5px;
     padding-left: 5px;
@@ -690,14 +735,20 @@ span#third {
     color: white;
     padding-top: 2px;
     font-size: 15px;
+    position: relative;
+    transition: all 0.ms ease-out;
 
 
 }
 
 @media screen and (max-width: 1120px) {
     .anotheremail input[type="text"] {
-        width: 90%;
-        /* Adjust width as needed */
+        width: 400px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .anotheremail input[type="text"] {
+        width: 200px;
     }
 }
 
@@ -719,6 +770,12 @@ span#third {
     font-size: 25px;
     padding-top: 8px;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 1400px) {
+    #id3{
+        margin-left: 40px;
+    }
+    
 }
 
 .last {
