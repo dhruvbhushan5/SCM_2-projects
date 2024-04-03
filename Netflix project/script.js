@@ -1,16 +1,14 @@
-let number = document.getElementById('faqbox');
-number.addEventListener('click', function () {
-    faqbox.style.height = "140px";
-    faqbox.innerText = "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!"
+let box = document.createElement("div");
+box.id = "box"; // Set id for styling
+box.innerText = "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week.";
 
+let p = document.getElementById("faqbox")
+p.addEventListener("click", function(){
+    p.after(box);
 });
- number.addEventListener('mouseout', function() {
-    faqbox.style.height = "35px"
-    faqbox.innerText = "What is Netflix?"
-    
-     
-});
-
+p.addEventListener('mouseout', function(){
+    box.style.display = "none";
+})
 
 let number1 = document.getElementById('faqbox1');
 number1.addEventListener('click', function () {

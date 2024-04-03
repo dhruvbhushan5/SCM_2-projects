@@ -205,6 +205,10 @@ span#third {
     font-size: 25px;
     padding-top: 8px;
 }
+.info #fifth a{
+    text-decoration: none;
+    color: white;
+}
 
 .box2 {
 
@@ -529,6 +533,17 @@ span#third {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 24px;
     transition: all 0.1s ease-out;
+}
+#box {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    overflow: auto; 
+    max-width: 60vw;
+    height: 70px;
+    margin-left: 150px;
+    border: 1px solid black;
+    padding: 20px;
 }
 @media screen  and (max-width: 1223px){
     #faqbox{
